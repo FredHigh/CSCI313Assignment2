@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    border: 2px solid white;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 4;
+    border: 2px solid white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr, th {
+    border: 2px solid white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: bisque;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    border: 2px solid white;
+}
+
+.left {
+    text-align: left;
+}
